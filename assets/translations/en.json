@@ -1,0 +1,294 @@
+{
+    "name": "Othman Shawgan",
+    "description": "Software Engineer",
+    "subDescription": "Flutter Enthusiast",
+    "contacts": [
+        {
+            "tooltip": "Github",
+            "url": "https://github.com/othman98shawgan",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "LinkedIn",
+            "url": "https://www.linkedin.com/in/othman-shawgan/",
+            "icon": {
+                "codePoint": "0xeffb",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "oth1998@gmail.com",
+            "url": "mailto:oth1998@gmail.com",
+            "icon": {
+                "codePoint": "0xeaad",
+                "fontFamily": "FontAwesome"
+            }
+        },
+        {
+            "tooltip": "+972 527809342",
+            "url": "tel:+972 527809342",
+            "icon": {
+                "codePoint": "0xecbb",
+                "fontFamily": "FontAwesome"
+            }
+        }
+    ],
+    "resumes": [
+        {
+            "languageCode": "en",
+            "url": "https://drive.google.com/file/d/1_aCKrrv51Nt-l6HZmaD9U0dPbmClJpaJ/view?usp=sharing"
+        }
+    ],
+    "aboutDescription": "Hi, I'm Othman, a Software engineer proficient in front-end and back-end development, bug fixing, and testing. Skilled in diverse projects, including cloud-based and on-premise solutions. Collaborative team player with a track record of effectively collaborating with cross-functional teams to deliver successful project outcomes. Passionate about solving complex challenges and committed to continuous improvement and learning.",
+    "experiences": [
+        {
+            "role": " Android Developer",
+            "company": "Freelance",
+            "description": "- Developed and published multiple Android applications using Java and the Flutter framework, available on GitHub and Google Play. \n- Designed and implemented robust and user-friendly mobile applications, like 1RM Calculator (7k+ downloads) and Mawaqit, demonstrating strong skills in UI/UX design, backend integration, and app optimization.\n- Integrated Firebase for real-time database management and user authentication across apps.\n- Applied agile methodologies and version control using Git for project tracking and continuous integration.",
+            "isPresent": true,
+            "startYear": 2022,
+            "endYear": 2025,
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Firebase",
+                    "icon": {
+                        "assetName": "assets/icons/other/firebase.svg"
+                    }
+                },
+                {
+                    "name": "Firebase Hosting",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/FirebaseHosting.svg"
+                    }
+                },
+                {
+                    "name": "Github",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/github.svg"
+                    }
+                },
+                {
+                    "name": "Github Pages",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/github-pages.svg"
+                    }
+                },
+                {
+                    "name": "Google Play Store",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/Google Play.svg"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://play.google.com/store/apps/developer?id=Othman+Shawgan&hl=en",
+                    "display": "Google Play Store"
+                }
+            ]
+        },
+        {
+            "role": "Backend Software Engineer",
+            "company": "Philips",
+            "description": "I have worked on multiple projects developing and enhancing a Medical Imaging (PACS) solution, handling back-end development, engineering issues, and escalations to ensure system reliability and performance. Collaborating with cross-functional teams, I contributed to delivering integrated solutions while utilizing C/C++ and Java for robust, scalable development and leveraging Python, PowerShell, and other scripting languages for automation and scripting tasks.",
+            "startYear": 2023,
+            "startMonth": 7,
+            "endYear": 2024,
+            "endMonth": 10,
+            "technologies": [
+                {
+                    "name": "C++",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/cpp.svg"
+                    }
+                },
+                {
+                    "name": "Java",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/java.svg"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/python.svg"
+                    }
+                },
+                {
+                    "name": "PowerShell",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/PowerShell.svg"
+                    }
+                }
+            ]
+        },
+        {
+            "role": "Full Stack Software Engineer - Student",
+            "company": "Philips",
+            "description": "I developed a cloud-based Radiology Workflow Manager using .NET/C# for the back end and Angular/React for the front end, implementing a microservices architecture to ensure scalability and flexibility. I contributed to feature development, testing, automation, and bug fixing to deliver high-quality software.",
+            "startYear": 2021,
+            "startMonth": 10,
+            "endYear": 2023,
+            "endMonth": 6,
+            "technologies": [
+                {
+                    "name": "C#",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/c#.svg"
+                    }
+                },
+                {
+                    "name": "ASP.NET",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/AspDotNET.svg"
+                    }
+                },
+                {
+                    "name": "Angular",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/Angular.svg"
+                    }
+                },
+                {
+                    "name": "React",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/React.svg"
+                    }
+                },
+                {
+                    "name": "TypeScript",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/typescript.svg"
+                    }
+                },
+                {
+                    "name": "CSS",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/css3.svg"
+                    }
+                },
+                {
+                    "name": "Javascript",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/javascript.svg"
+                    }
+                }
+            ]
+        }
+    ],
+    "present": "Present",
+    "projects": [
+        {
+            "name": "Mawaqit (Prayer Times App)",
+            "description": "The Mawaqit App provides accurate prayer times for Al-Quds based on the Al-Aqsa Mosque Schedule, instead of prayer times calculations. The app displays the prayer times for all prayers of the day on the home page, and allows users to set reminders and receive notifications for each prayer.",
+            "url": "https://github.com/othman98shawgan/mawaqit",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/mawaqit logo.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Github Pages",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/github-pages.svg"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://othman98shawgan.github.io/mawaqit/",
+                    "display": "Mawaqit Web"
+                },
+                {
+                    "url": "https://play.google.com/store/apps/details?id=com.othman98shawgan.mawaqit",
+                    "display": "Google Play Store"
+                }
+            ]
+        },
+        {
+            "name": "One Rep Max Calculator",
+            "description": "1 Rep Max Calculator is an app that lets you calculate your 1RM, and find out how much you can lift. The app uses the best known formula to find out your 1RM, and gives you the approximant 1RM.\nWith over 1.7k active users and more than 8.3k downloads, the app has proven to be a trusted tool for lifters.\nAll you have to do is enter the weight and reps of a certain set and the app will calculate the approximant 1RM",
+            "url": "https://github.com/othman98shawgan/one-rep-max-calc",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/1rm_logo_white.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://play.google.com/store/apps/details?id=com.app.a1rmcalc&hl=en",
+                    "display": "Google Play Store"
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "code": "en",
+            "name": "English",
+            "nativeName": "English",
+            "icon": {
+                "assetName": "assets/icons/flags/united-states-of-america.svg"
+            }
+        }
+    ],
+    "bottomBanner": {
+        "message": "Open source portfolio -",
+        "displayLink": "Fork it",
+        "linkUrl": "https://github.com/AladdineDev/portfolio#readme"
+    },
+    "portfolio": "Portfolio",
+    "homeSectionTitle": "Home",
+    "aboutSectionTitle": "About",
+    "aboutSectionTitleAlt": "About Me",
+    "experienceSectionTitle": "Experience",
+    "projectsSectionTitle": "Projects",
+    "resume": "Resume",
+    "downloadResume": "Download resume",
+    "openUrlError": "Could not open the url",
+    "unknownLanguageError": "Language unknown"
+}
