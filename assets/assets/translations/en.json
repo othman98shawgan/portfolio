@@ -45,7 +45,7 @@
     "aboutDescription": "Hi, I'm Othman, a Software engineer proficient in front-end and back-end development, bug fixing, and testing. Skilled in diverse projects, including cloud-based and on-premise solutions. Collaborative team player with a track record of effectively collaborating with cross-functional teams to deliver successful project outcomes. Passionate about solving complex challenges and committed to continuous improvement and learning.",
     "experiences": [
         {
-            "role": " Android Developer",
+            "role": "Android Developer",
             "company": "Freelance",
             "description": "- Developed and published multiple Android applications using Java and the Flutter framework, available on GitHub and Google Play. \n- Designed and implemented robust and user-friendly mobile applications, like 1RM Calculator (7k+ downloads) and Mawaqit, demonstrating strong skills in UI/UX design, backend integration, and app optimization.\n- Integrated Firebase for real-time database management and user authentication across apps.\n- Applied agile methodologies and version control using Git for project tracking and continuous integration.",
             "isPresent": true,
@@ -73,13 +73,13 @@
                 {
                     "name": "Firebase Hosting",
                     "icon": {
-                        "assetName": "assets/icons/software-development/FirebaseHosting.svg"
+                        "assetName": "assets/icons/software-development/firebasehosting.svg"
                     }
                 },
                 {
                     "name": "Github",
                     "icon": {
-                        "assetName": "assets/icons/software-development/github.svg"
+                        "assetName": "assets/icons/software-development/Github.svg"
                     }
                 },
                 {
