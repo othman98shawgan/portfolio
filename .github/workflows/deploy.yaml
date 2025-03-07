@@ -29,21 +29,20 @@ jobs:
 
       - name: Code generation
         run: |
-          dart run build_runner build -d
+          dart run build_runner build --delete-conflicting-outputs
           dart run easy_localization:generate -S assets/translations -f json -O lib/src/localization/generated -o locale_json.g.dart
           dart run easy_localization:generate -S assets/translations -f keys -O lib/src/localization/generated -o locale_keys.g.dart
 
       - name: Set base-href
-        id: set_base_href
         run: |
           if [[ -z "${{ vars.CNAME }}" ]]; then
-            echo "base_href=/${{ github.event.repository.name }}/" >> $GITHUB_OUTPUT
+            echo "BASE_HREF=/${{ github.event.repository.name }}/" >> $GITHUB_ENV
           else
-            echo "base_href=/" >> $GITHUB_OUTPUT
+            echo "BASE_HREF=/" >> $GITHUB_ENV
           fi
 
       - name: Build
-        run: flutter build web --wasm --release --no-tree-shake-icons --base-href "${{ steps.set_base_href.outputs.base_href }}"
+        run: flutter build web --wasm --release --no-tree-shake-icons --base-href "$BASE_HREF"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
