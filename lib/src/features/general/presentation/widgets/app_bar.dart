@@ -1,16 +1,15 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/data/language_repository.dart';
 import 'package:portfolio/src/common/widgets/animated_fade_slide.dart';
 import 'package:portfolio/src/common/widgets/selection_area.dart';
 import 'package:portfolio/src/constants/sizes.dart';
 import 'package:portfolio/src/features/general/presentation/widgets/app_bar_button.dart';
 import 'package:portfolio/src/features/general/presentation/widgets/dark_mode_switch.dart';
-import 'package:portfolio/src/features/general/presentation/widgets/locale_button.dart';
 import 'package:portfolio/src/localization/generated/locale_keys.g.dart';
 import 'package:portfolio/src/features/general/provider/section_key_provider.dart';
 import 'package:portfolio/src/common/widgets/responsive.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MyAppBar extends ConsumerWidget {
   const MyAppBar({super.key});
@@ -37,13 +36,8 @@ class MyAppBar extends ConsumerWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      const Icon(
-                        IconData(
-                          0xedc3,
-                          fontFamily: "FontAwesome",
-                        ),
-                      ),
-                      const SizedBox(width: 12),
+                      const Icon(FontAwesomeIcons.code),
+                      const SizedBox(width: 18),
                       Text(tr(LocaleKeys.portfolio)),
                     ],
                   ),
@@ -105,11 +99,5 @@ class MyAppBar extends ConsumerWidget {
         curve: Curves.decelerate,
       );
     }
-  }
-
-  Widget _buildLocaleButton(BuildContext context, WidgetRef ref) {
-    final languages = ref.watch(languageRepositoryProvider).getLanguages();
-    if (languages.length > 1) return const LocaleButton();
-    return const SizedBox.shrink();
   }
 }
