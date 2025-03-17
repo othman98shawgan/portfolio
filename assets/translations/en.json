@@ -264,6 +264,148 @@
                     "display": "Google Play Store"
                 }
             ]
+        },
+        {
+            "name": "Chess Timer",
+            "description": "A simple and efficient chess timer app that lets you set custom timers, pause, reset, and edit time without interruptions. Ideal for chess and other timed activities.",
+            "url": "https://github.com/othman98shawgan/chess-timer-flutter",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/chess_timer_logo.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://play.google.com/store/apps/details?id=com.app.chesstimer&hl=en",
+                    "display": "Google Play Store"
+                }
+            ]
+        },
+        {
+            "name": "Easy Count",
+            "description": "Easy Count is a simple and intuitive counter app that helps you keep track of your counts for regular and Islamic counting (dhikr). With just a tap on the screen, you can easily increase the count, and the app also offers the option of vibrating on each tap to provide a tactile feedback.",
+            "url": "https://github.com/othman98shawgan/dhikr-counter",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/easy_count_logo.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://play.google.com/store/apps/details?id=com.othman.dhikrcounter",
+                    "display": "Google Play Store"
+                }
+            ]
+        },
+        {
+            "name": "QuickWatch",
+            "description": "QuickWatch is a simple and easy-to-use stopwatch app that allows you to time your workouts, cooking, or any other activities with just a few taps. With its user-friendly design and intuitive interface, QuickWatch is perfect for all your timing needs.",
+            "url": "https://github.com/othman98shawgan/easy-stopwatch",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/quick_watch_logo.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://play.google.com/store/apps/details?id=com.othman.quickWatch",
+                    "display": "Google Play Store"
+                }
+            ]
+        },
+        {
+            "name": "Wrestle Predict (In Development)",
+            "description": "WrestlePredict is a website that lets you compete with your friends and see who is the best at predicting wrestling matches and events. You can set a new group with your friends and start competing against each other.",
+            "url": "https://github.com/othman98shawgan/easy-stopwatch",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/wrestle_predict_logo.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                },
+                {
+                    "name": "Dart",
+                    "icon": {
+                        "assetName": "assets/icons/other/dart.svg"
+                    }
+                },
+                {
+                    "name": "Firebase",
+                    "icon": {
+                        "assetName": "assets/icons/other/firebase.svg"
+                    }
+                },
+                {
+                    "name": "Firebase Hosting",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/firebasehosting.svg"
+                    }
+                },
+                {
+                    "name": "Github Pages",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/github-pages.svg"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "url": "https://othman98shawgan.github.io/wrestle-predict/",
+                    "display": "Webstire"
+                }
+            ]
         }
     ],
     "languages": [
